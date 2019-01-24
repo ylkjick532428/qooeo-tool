@@ -1,0 +1,58 @@
+<html>
+<head>
+    <title>Test</title>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no">
+    <style>
+        .test {
+            position: absolute;
+            z-index: 99999999999;
+            width: 200px;
+            background: indianred;
+            font-size: 12px;
+            padding-bottom: 10px;
+            text-align: center;
+        }
+        .test button {
+            text-align: left;
+            width: 170px;
+            background: yellowgreen;
+            margin: 5px;
+        }
+        #list {
+            text-align: center;
+            color: yellowgreen;
+            font-weight: 600;
+            font-size: 12px;
+            margin-top: 10px;
+        }
+
+        #show {
+            display: none;
+        }
+    </style>
+
+</head>
+<body>
+<div id="show" class="test" style="">
+    <div id="list">Show JS NO UI SDK Methods</div>
+    <button data-id="hidden">Show Methods</button>
+</div>
+<div id="test" class="test">
+    <div id="list">JS SDK Methods</div>
+
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+
+
+<script>
+    $(document).ready(function () {
+
+    });
+</script>
+
+</body>
+</html>
